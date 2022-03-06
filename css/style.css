@@ -179,6 +179,116 @@ body{
     font-weight: bold;
     
 }
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+}
+.caption{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.img-btn-box{
+    display: flex;
+    align-items: center;
+    margin-right: 175px;
+}
+.img-grid2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+}
+.img3{
+    margin-top: 60px;
+}
+.img-btn{
+    background-color: #F9F3F5;
+    border: none;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+}
+.contact-icon-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-right: 140px;
+
+}
+.red-box{
+    background-color: #FF4C60 ;
+    height: 70px;
+    width: 70px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mail-icon, .call-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+.contact-text{
+    width: 70%;
+}
+.contact-input{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 35px; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+.col{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+}
+.contact-textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+
+}
+.contact-btn button{
+    background-color: #FF4C60;
+    padding: 10px 30px;
+    color: white;
+   border: 3px solid transparent;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.contact-btn{
+    text-align: center;
+    background: #FFFAFA;
+
+}
 .copy-right{
     text-align: center;
+    margin-top: 30px;
+}
+.contact-from{
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+.contact-from h3{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.contact-text p{
+    font-weight: bolder;
 }
